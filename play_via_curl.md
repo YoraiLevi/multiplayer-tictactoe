@@ -121,16 +121,6 @@ curl -X 'GET' \
 ```json
 {
   "game_id": "ccac4a48-afb8-42c9-8550-d0db110e5000",
-  "player_id": null,
-  "board": [
-    [
-      null,
-      null,
-      null
-    ],
-```json
-{
-  "game_id": "ccac4a48-afb8-42c9-8550-d0db110e5000",
   "player_id": "8f8fdbfb-45bb-4089-add6-07b1e3414b60",
   "board": [
     [
