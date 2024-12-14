@@ -3,10 +3,10 @@
 A real-time multiplayer Tic-tac-toe game built with FastAPI (backend) and React,Vite (frontend). The game supports multiple concurrent games and provides a clean, modern interface.
  
 <span>
-<img src="pictures/Screenshot%20from%202024-12-14%2021-06-32.png" alt="Screenshot from 2024-12-14 21-06-32" width="225"/>
-<img src="pictures/Screenshot%20from%202024-12-14%2021-06-34.png" alt="Screenshot from 2024-12-14 21-06-34" width="225"/>
-<img src="pictures/Screenshot%20from%202024-12-14%2021-05-52.png" alt="Screenshot from 2024-12-14 21-05-52" width="225"/>
-<img src="pictures/Screenshot%20from%202024-12-14%2021-06-26.png" alt="Screenshot from 2024-12-14 21-06-26" width="225"/>
+<img src="pictures/Screenshot%20from%202024-12-14%2021-06-32.png" alt="Screenshot from 2024-12-14 21-06-32" width="200"/>
+<img src="pictures/Screenshot%20from%202024-12-14%2021-06-34.png" alt="Screenshot from 2024-12-14 21-06-34" width="200"/>
+<img src="pictures/Screenshot%20from%202024-12-14%2021-05-52.png" alt="Screenshot from 2024-12-14 21-05-52" width="200"/>
+<img src="pictures/Screenshot%20from%202024-12-14%2021-06-26.png" alt="Screenshot from 2024-12-14 21-06-26" width="200"/>
 </span>
 
 
