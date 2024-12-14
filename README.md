@@ -127,7 +127,8 @@ source ./backend/.venv/bin/activate
    - Full board with no winner (draw)
 
 ## API Endpoints  
-[backend/src/app/routes/games.py](backend/src/app/routes/games.py)
+### [playing the game through curl](play_via_curl.md)
+[backend/src/app/routes/games.py](backend/src/app/routes/games.py)  
 - `POST /api/games` - Create new game
 - `POST /api/games/{id}/join` - Join existing game
 - `POST /api/games/{id}/move` - Make a move
