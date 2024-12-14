@@ -1,0 +1,58 @@
+.board {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4px;
+    background-color: #2c3e50;
+    padding: 4px;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.board-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.cell {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: default;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    aspect-ratio: 1;
+}
+
+.cell-clickable:not(.cell-x):not(.cell-o) {
+    cursor: pointer;
+    background-color: #f5f6fa;
+}
+
+.cell-clickable:not(.cell-x):not(.cell-o):hover {
+    background-color: #dcdde1;
+}
+
+.cell-x {
+    color: #e74c3c;
+}
+
+.cell-o {
+    color: #3498db;
+}
+
+/* Animation for new moves */
+@keyframes pop {
+    0% { transform: scale(0.8); opacity: 0; }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.cell-x, .cell-o {
+    animation: pop 0.3s ease-out forwards;
+} 
